@@ -1,2 +1,2 @@
-arr = list(map(int, input().split(' ')))
-print(sum([arr[2], arr[4], arr[9]]))
+arr = list(input().split(' '))
+print(int(arr[2]) + int(arr[4]) + int(arr[9]))
