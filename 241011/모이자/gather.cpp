@@ -3,7 +3,7 @@
 #include <cstdlib>
 #include <sstream>
 #include <vector>
-
+#include <climits>
 using namespace std;
 
 
@@ -24,7 +24,7 @@ int main()
         iss >> arr[i];
     }
 
-    int min_dist = 100;
+    int min_dist = INT_MAX;
 
     for(int i=0; i<n; i++)
     {
