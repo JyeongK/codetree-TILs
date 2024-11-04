@@ -17,7 +17,7 @@ int main() {
     
     thres = sumA - S;
     int diff = 0;
-    int min_value = 101;
+    int min_value = 999;
     int result = 0;
     for(int i=0; i<N; i++)
     {
