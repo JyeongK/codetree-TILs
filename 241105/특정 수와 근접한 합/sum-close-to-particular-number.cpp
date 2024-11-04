@@ -7,7 +7,7 @@ int main() {
     int* arr;
     scanf("%d %d", &N, &S);
 
-    arr = new int(N);
+    arr = new short(N);
 
     for(int i=0; i<N; i++)
     {
