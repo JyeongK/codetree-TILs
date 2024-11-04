@@ -26,11 +26,11 @@ int main() {
             int test_case = arr[i] + arr[j];
             diff = abs(test_case - thres);
 
-            if(diff == 0)      
-            {                
-                printf("0");
-                return 0;
-            }
+            // if(diff == 0)      
+            // {                
+            //     printf("0");
+            //     return 0;
+            // }
             else if (diff < min_value)
             {
                 min_value = diff;
