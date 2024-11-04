@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     // 여기에 코드를 작성해주세요.
     int N, S, sumA=0, thres;
-    int* arr;
+    short* arr;
     scanf("%d %d", &N, &S);
 
     arr = new short(N);
