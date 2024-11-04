@@ -4,10 +4,10 @@ using namespace std;
 int main() {
     // 여기에 코드를 작성해주세요.
     int N, S, sumA=0, thres;
-    short* arr;
+    char* arr;
     scanf("%d %d", &N, &S);
 
-    arr = new short(N);
+    arr = new char(N);
 
     for(int i=0; i<N; i++)
     {
