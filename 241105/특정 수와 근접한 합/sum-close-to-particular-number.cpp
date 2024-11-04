@@ -46,6 +46,6 @@ int main() {
     }
 
     printf("%d", result);
-
+    delete arr;
     return 0;
 }
