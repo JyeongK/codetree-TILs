@@ -24,6 +24,8 @@ int main() {
         for(int j=i; j<N; j++)
         {
             int test_case = arr[i] + arr[j];
+            if(i == j)
+                continue;
             diff = abs(test_case - thres);
 
             // if(diff == 0)      
