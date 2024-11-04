@@ -31,7 +31,8 @@ int main() {
             //     printf("0");
             //     return 0;
             // }
-            else if (diff < min_value)
+            //else 
+            if (diff < min_value)
             {
                 min_value = diff;
                 result = thres - (arr[i] + arr[j]);
